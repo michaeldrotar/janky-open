@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:janky-open.openPrompt"
+		"onCommand:jankyOpen.openPrompt"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "janky-open.openPrompt",
-				"title": "Janky: Foo"
+				"command": "jankyOpen.openPrompt",
+				"title": "Janky Open: Foo"
 			}
 		]
 	},
